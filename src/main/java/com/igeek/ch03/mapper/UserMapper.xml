@@ -35,7 +35,7 @@
         delete from user where id=#{id}
     </delete>
 
-    <update id="updateUser" parameterType="Integer,User">
+    <update id="updateUser" parameterType="User">
         update user set username=#{username},sex=#{sex},birthday=#{birthday},address=#{address} where id=#{id}
     </update>
 

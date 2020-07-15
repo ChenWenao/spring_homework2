@@ -28,6 +28,6 @@ public interface UserMapper {
     public void deleteUser(Integer id);
 
     //修改用户信息
-    public void updateUser(Integer id,User user);
+    public void updateUser(User user);
 
 }
